@@ -37,7 +37,7 @@ Random Forest achieved the best performance on both datasets. The news popularit
 ## Project Structure
 
 ```
-├── tema2.py                  # Main pipeline script
+├── code.py                  # Main pipeline script
 ├── screenshots/              # Visualization samples from pipeline output
 │   ├── missing_values.png
 │   ├── correlation_heatmap.png
@@ -114,7 +114,7 @@ pip install pandas numpy matplotlib scikit-learn scipy
 Place your dataset files (`*_train.csv` and `*_test.csv`) in the same directory as the script, then run:
 
 ```bash
-python tema2.py
+python code.py
 ```
 
 The pipeline will automatically detect all dataset pairs and run the full analysis. Results are saved to `plots/`, `metrics/`, `reports/`, and `logs/`.
